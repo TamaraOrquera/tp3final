@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block titulo %} Agfregar nuevo libro {% endblock %}
+
+{% block contenido %}
+
+<div class="card">
+    <div class="card-header">
+        Crear una Revista
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos de la revista</h4>
+        {% include 'libros/form.html' %}
+    </div>
+
+</div>
+
+{% endblock %}
